@@ -2,6 +2,8 @@
 
 *Generated on: 2026-05-27 23:31*
 
+> All IP literals in this checked-in summary are anonymized TEST-NET placeholders.
+
 ## Overall Bypass Rate
 
 | Engine | Bypass Rate (%) |
@@ -93,26 +95,26 @@
 
 | Engine | Trust Score (%) | Bot Score (%) | WebRTC IP |
 |-----------------|----------------:|--------------:|----------:|
-| adspower | 0.00 | 0.00 | 90.214.10.188 |
-| adspower_headless | 0.00 | 0.00 | 177.93.10.239 |
-| camoufox_headless | 0.00 | 0.00 | 186.86.110.232 |
+| adspower | 0.00 | 0.00 | 198.51.100.19 |
+| adspower_headless | 0.00 | 0.00 | 198.51.100.4 |
+| camoufox_headless | 0.00 | 0.00 | 198.51.100.7 |
 | cloakbrowser | 0.00 | 0.00 |  |
 | cloakbrowser_headless | 0.00 | 0.00 |  |
-| nodriver-chrome | 0.00 | 0.00 | 146.70.188.179 |
-| nodriver-chrome_headless | 0.00 | 0.00 | 146.70.188.179 |
-| patchright | 0.00 | 0.00 | 146.70.188.179 |
-| patchright_headless | 0.00 | 0.00 | 146.70.188.179 |
-| playwright-chrome | 0.00 | 0.00 | 146.70.188.179 |
-| playwright-chrome_headless | 0.00 | 0.00 | 146.70.188.179 |
-| playwright-firefox | 0.00 | 0.00 | 146.70.188.179 |
-| playwright-firefox_headless | 0.00 | 0.00 | 146.70.188.179 |
-| selenium-chrome__no_proxy | 0.00 | 0.00 | 146.70.188.179 |
-| selenium-chrome_headless__no_proxy | 0.00 | 0.00 | 146.70.188.179 |
+| nodriver-chrome | 0.00 | 0.00 | 203.0.113.1 |
+| nodriver-chrome_headless | 0.00 | 0.00 | 203.0.113.1 |
+| patchright | 0.00 | 0.00 | 203.0.113.1 |
+| patchright_headless | 0.00 | 0.00 | 203.0.113.1 |
+| playwright-chrome | 0.00 | 0.00 | 203.0.113.1 |
+| playwright-chrome_headless | 0.00 | 0.00 | 203.0.113.1 |
+| playwright-firefox | 0.00 | 0.00 | 203.0.113.1 |
+| playwright-firefox_headless | 0.00 | 0.00 | 203.0.113.1 |
+| selenium-chrome__no_proxy | 0.00 | 0.00 | 203.0.113.1 |
+| selenium-chrome_headless__no_proxy | 0.00 | 0.00 | 203.0.113.1 |
 | seleniumbase-cdp-chrome | 0.00 | 0.00 |  |
-| tf-playwright-stealth-chromium | 0.00 | 0.00 | 146.70.188.179 |
-| tf-playwright-stealth-chromium_headless | 0.00 | 0.00 | 146.70.188.179 |
-| tf-playwright-stealth-firefox | 0.00 | 0.00 | 146.70.188.179 |
-| tf-playwright-stealth-firefox_headless | 0.00 | 0.00 | 146.70.188.179 |
+| tf-playwright-stealth-chromium | 0.00 | 0.00 | 203.0.113.1 |
+| tf-playwright-stealth-chromium_headless | 0.00 | 0.00 | 203.0.113.1 |
+| tf-playwright-stealth-firefox | 0.00 | 0.00 | 203.0.113.1 |
+| tf-playwright-stealth-firefox_headless | 0.00 | 0.00 | 203.0.113.1 |
 | zendriver-chrome | 0.00 | 0.00 |  |
 | zendriver-chrome_headless | 0.00 | 0.00 |  |
 | camoufox | nan | nan | Not detected |
@@ -122,29 +124,29 @@
 
 | Engine | IP |
 |-----------------|----------:|
-| adspower | 90.214.10.188 |
-| adspower_headless | 177.93.10.239 |
+| adspower | 198.51.100.19 |
+| adspower_headless | 198.51.100.4 |
 | camoufox | Not detected |
-| camoufox_headless | 186.86.110.232 |
-| cloakbrowser | 179.0.46.130 |
-| cloakbrowser_headless | 193.5.237.36 |
-| nodriver-chrome | 190.232.219.121 |
-| nodriver-chrome_headless | 91.54.173.199 |
-| patchright | 24.78.176.233 |
-| patchright_headless | 181.46.71.26 |
-| playwright-chrome | 89.247.171.61 |
-| playwright-chrome_headless | 196.65.213.80 |
-| playwright-firefox | 79.8.183.149 |
-| playwright-firefox_headless | 130.0.11.123 |
-| selenium-chrome__no_proxy | 146.70.188.179 |
-| selenium-chrome_headless__no_proxy | 146.70.188.179 |
-| seleniumbase-cdp-chrome | 142.173.54.135 |
-| tf-playwright-stealth-chromium | 212.237.121.217 |
-| tf-playwright-stealth-chromium_headless | 83.168.89.168 |
-| tf-playwright-stealth-firefox | 196.98.139.187 |
-| tf-playwright-stealth-firefox_headless | 45.227.249.248 |
-| zendriver-chrome | 47.234.192.130 |
-| zendriver-chrome_headless | 142.173.61.185 |
+| camoufox_headless | 198.51.100.7 |
+| cloakbrowser | 198.51.100.5 |
+| cloakbrowser_headless | 198.51.100.9 |
+| nodriver-chrome | 198.51.100.8 |
+| nodriver-chrome_headless | 198.51.100.20 |
+| patchright | 198.51.100.13 |
+| patchright_headless | 198.51.100.6 |
+| playwright-chrome | 198.51.100.18 |
+| playwright-chrome_headless | 198.51.100.10 |
+| playwright-firefox | 198.51.100.16 |
+| playwright-firefox_headless | 198.51.100.1 |
+| selenium-chrome__no_proxy | 203.0.113.1 |
+| selenium-chrome_headless__no_proxy | 203.0.113.1 |
+| seleniumbase-cdp-chrome | 198.51.100.2 |
+| tf-playwright-stealth-chromium | 198.51.100.12 |
+| tf-playwright-stealth-chromium_headless | 198.51.100.17 |
+| tf-playwright-stealth-firefox | 198.51.100.11 |
+| tf-playwright-stealth-firefox_headless | 198.51.100.14 |
+| zendriver-chrome | 198.51.100.15 |
+| zendriver-chrome_headless | 198.51.100.3 |
 
 
 ## Visual Dashboard
