@@ -17,9 +17,10 @@ comparing engines against public protection and fingerprinting targets.
 
 ## Verification Contract
 
-- `bash scripts/verify.sh ci`: offline syntax and checked-in JSON checks.
+- `bash scripts/verify.sh ci`: offline syntax, checked-in JSON, and synthetic page fixture checks.
 - `bash scripts/verify.sh syntax`: compile Python files without importing browser/proxy dependencies.
 - `bash scripts/verify.sh json`: parse checked-in result JSON files.
+- `bash scripts/verify.sh test`: run dependency-free page fixtures for survey failures and TikTok result classification.
 
 This verifier intentionally does not install browser engines, launch browsers,
 use proxies, solve CAPTCHAs, or contact external protection targets.

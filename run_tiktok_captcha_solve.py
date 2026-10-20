@@ -30,14 +30,18 @@ async def check_page_status(page) -> dict:
         captcha_count = await page.evaluate(
             "document.querySelectorAll('[class*=\"secsdk-captcha\"],.captcha_verify_container').length"
         )
+        product_count = await page.evaluate(
+            "document.querySelectorAll('.pdp-scroll-container,[data-testid=\"product-price\"],.price-area').length"
+        )
         is_captcha = captcha_count > 0 or "Security Check" in title or "Verify" == title.strip()
-        # Real product title is always > 10 chars and contains product description
-        is_product = not is_captcha and len(title) > 10 and title not in ("", "TikTok Shop")
+        is_blocked = is_captcha or "Access Denied" in title or "403" in title or "セキュリティ" in title
+        is_product = not is_blocked and product_count > 0
         return {
             "title": title,
             "captcha_count": captcha_count,
+            "product_count": product_count,
             "bypass": is_product,
-            "blocked": is_captcha,
+            "blocked": is_blocked,
         }
     except Exception as e:
         return {"error": str(e), "bypass": False, "blocked": True}

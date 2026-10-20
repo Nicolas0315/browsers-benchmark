@@ -10,6 +10,7 @@ on:
       - 'requirements.txt'
       - '.python-version'
       - 'AGENTS.md'
+      - 'scripts/verify.sh'
       - '.github/workflows/verify.yml'
   pull_request:
     branches:
@@ -20,6 +21,7 @@ on:
       - 'requirements.txt'
       - '.python-version'
       - 'AGENTS.md'
+      - 'scripts/verify.sh'
       - '.github/workflows/verify.yml'
   workflow_dispatch:
 

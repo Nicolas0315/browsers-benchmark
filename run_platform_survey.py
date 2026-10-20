@@ -146,7 +146,7 @@ async def test_platform(page, platform: dict, headless: bool) -> dict:
 
     mode = "headless" if headless else "headed"
     status = "✅" if result["success"] and not result["blocked"] else ("⚠️ " if result["blocked"] else "❓")
-    print(f"  {status} [{mode:8s}] {platform['name']:22s}  antibot={result['antibot']:16s}  load={result.get('load_time','?')}s  title={result.get('title','?')[:35]}")
+    print(f"  {status} [{mode:8s}] {platform['name']:22s}  antibot={result['antibot']:16s}  load={result.get('load_time','?')}s  title={(result.get('title') or '?')[:35]}")
     return result
 
 
